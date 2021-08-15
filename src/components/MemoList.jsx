@@ -19,7 +19,8 @@ export default function MemoList() {
         </View>
         <TouchableOpacity
           style={styles.memoDelete}
-          onPress={() => { Alert.alert('Are you shure?'); }}>
+          onPress={() => { Alert.alert('Are you shure?'); }}
+        >
           <Feather name="x" size={16} color="#B0B0B0" />
         </TouchableOpacity>
       </TouchableOpacity>
@@ -33,7 +34,8 @@ export default function MemoList() {
         </View>
         <TouchableOpacity
           style={styles.memoDelete}
-          onPress={() => { Alert.alert('Are you shure?'); }}>
+          onPress={() => { Alert.alert('Are you shure?'); }}
+        >
           <Feather name="x" size={16} color="#B0B0B0" />
         </TouchableOpacity>
       </TouchableOpacity>
@@ -47,7 +49,8 @@ export default function MemoList() {
         </View>
         <TouchableOpacity
           style={styles.memoDelete}
-          onPress={() => { Alert.alert('Are you shure?'); }}>
+          onPress={() => { Alert.alert('Are you shure?'); }}
+        >
           <Feather name="x" size={16} color="#B0B0B0" />
         </TouchableOpacity>
       </TouchableOpacity>
