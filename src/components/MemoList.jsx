@@ -7,8 +7,8 @@ import { Feather } from '@expo/vector-icons';
 import {
   shape, string, instanceOf, arrayOf,
 } from 'prop-types';
-import { dateToString } from '../utils';
 import firebase from 'firebase';
+import { dateToString } from '../utils';
 
 export default function MemoList(props) {
   const { memos } = props;

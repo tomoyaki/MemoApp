@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet, ActivityIndicator } from 'react-native';
 import { bool } from 'prop-types';
 
-export default function Loading (props) {
+export default function Loading(props) {
   const { isLoading } = props;
   if (!isLoading) {
     return null;
@@ -22,7 +22,7 @@ Loading.propTypes = {
 
 Loading.defaultProps = {
   isLoading: false,
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -40,5 +40,5 @@ const styles = StyleSheet.create({
   },
   inner: {
     marginBottom: 80,
-  }
-})
+  },
+});
